@@ -1,0 +1,163 @@
+input {
+	display: inline-block;/*barra de busqueda*/
+	background:transparent;
+	border: none;
+	margin-top: 1%;
+	width: 50%;
+
+
+}
+
+.barra{/*barra busqueda + iconos en su interior*/
+	display: inline;
+	background: #EFEFEF;
+	padding: 1% 4% 1%;
+	margin-left: 121px;
+
+
+
+}
+.ipinterest{/*logo pinterest*/
+	
+	font-size:35px;
+	color:#bd081c;
+	display: inline-block;
+	position: absolute;
+	left:72px;	
+
+}
+
+.iconos{/*3 iconos */
+	display: inline-block;
+	color: #B5B5B5;
+	font-size:20px;
+	position: absolute;
+	left:78%;
+	top:17%;
+}
+
+.fa-bars{/*icono del centro, borde superior izquierdo*/
+	margin:0px 30px;
+}
+h3{
+	display: inline-block;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+}
+
+.cajas{
+	color: #FFFFFF;
+	margin-left: 100px;
+
+
+}
+
+.caja1{
+	display: inline-block;
+	background-color:#746051;
+	padding:0px 0px;
+	border-radius: 5px;
+	width: 120px;
+	padding:4px 0px;
+	text-align: center;
+
+
+
+}
+.caja2{
+	display: inline-block;
+	background: #AB8B6F;
+	border-radius: 5px;
+	margin: 0px 9px;
+	width: 107px;
+	padding:4px 0px;
+	text-align: center;
+}
+
+.caja3{
+	display: inline-block;
+	background: #87715E;
+	border-radius: 5px;
+	width:88px;
+	padding:4px 0px;
+	text-align: center;
+}
+.caja4{
+	display: inline-block;
+	padding:4px 0px;
+	width: 75px;
+	text-align: center;
+	background: #8F6F53;
+	border-radius: 5px;
+	margin: 0px 9px;
+}
+.caja5{
+	display: inline-block;
+	padding:4px 0px;
+	width: 147px;
+	text-align: center;
+	background:#97944F;
+	border-radius: 5px;
+	
+}
+.caja6{
+	display: inline-block;
+	padding:4px 0px;
+	width: 109px;
+	text-align: center;
+	background:#83745D;
+	border-radius: 5px;
+	margin: 0px 9px;
+}
+.caja7{
+	display: inline-block;
+	padding:4px 0px;
+	width: 89px;
+	text-align: center;
+	background:#928786;
+	border-radius: 5px;
+	
+}
+.caja8{
+	display: inline-block;
+	padding:4px 0px;
+	width:107px;
+	text-align: center;
+	background:#9B785C;
+	border-radius: 5px;
+	margin: 0px 9px;
+}
+.caja9{
+	display: inline-block;
+	padding:4px 0px;
+	width:99px;
+	text-align: center;
+
+	background:#B38679;
+	border-radius: 5px;
+	
+}
+
+header{
+	position: fixed;/*contenedor elementos fijos*/
+	background-color: white;/*color fondo barra*/
+	width: 100%;/*ancho del navegador*/
+	left: 0;
+	padding:15px;
+	top:0px;
+}
+
+.imagenes {
+	position:absolute;
+	z-index: -1;/*imagenes al fondo*/
+	column-count:4; /*columnas*/
+	column-gap:10px 10px;/*brecha entre columnas*/
+	top: 25%;/*distancia superior*/
+
+	
+}
+.imagen{
+	width: 100%;
+	border-radius: 30px;/*borde redondo*/
+	margin: 20px 0px;
+}
